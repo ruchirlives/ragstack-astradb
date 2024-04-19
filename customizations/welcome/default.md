@@ -1,13 +1,5 @@
-### Your Enterprise Sidekick
-Generative AI is considered to bring the next Industrial Revolution as studies show a **37% efficiency boost** in day to day work activities!
+####Generative AI with Retrieval-Augmented Generation (RAG)
+Retrieval-Augmented Generation (RAG) is a powerful technique that combines the strengths of large language models like OpenAI GPT-4 with the ability to retrieve relevant information from external data sources. This chatbot demonstrates the potential of RAG by leveraging the advanced natural language processing capabilities of GPT-4 and the high-performance data storage and retrieval of DataStax Astra DB.
 
-#### DATA = AI
-The most important differentiator in Qualitative Generative AI is Data. There is no AI without Data! Read this [in-depth article by Michel de Ru](https://datastax.medium.com/with-generative-ai-context-is-king-7a1469942044). It's your data that provides a Sustainable Competitive Advantage.
-
-#### DataStax Astra DB
-Providing the best data at the highest performance for Generative AI is done by using [DataStax Astra DB](https://db.new) as is underscored in [an independant research by GigaOM](https://www.datastax.com/resources/report/gigaom-study-vector-databases-compared).
-
-#### Focus on Data
-This GenAI Chatbot has a laser focus on the interaction between Astra DB and the Foundational Large Language Model and offers a multitude of options that change that interaction. Try it out in the panel on the left and make sure you **store your data in a database that's worth storing your data**.
-
----
+###How RAG Works
+When a user inputs a query, the chatbot first searches the connected Astra DB database for relevant information. The retrieved data is then used to augment the input query, providing additional context to the language model. GPT-4 processes this augmented query and generates a response that incorporates the retrieved information, resulting in more accurate and context-aware answers.
